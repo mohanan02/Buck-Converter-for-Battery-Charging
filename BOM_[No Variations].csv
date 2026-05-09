@@ -1,0 +1,41 @@
+﻿,Name,Description,Designator,Part Number,Price,Qty
+,470u,"Polarized Aluminum Capacitor, Through Hole, Pitch 200mil, Body 400mil (Dia)","C1, C2, C7, C8, C9",,,5
+,10uF,"Non Polarized Capacitor, SMD, 1210","C3, C6",,,2
+,1uF,"Non Polarized Capacitor, SMD, 1210","C5, Cg1",,,2
+,100nF,"Film Capacitor, B32652 Series, 0.1 µF, ± 5%, PP (Polypropylene), 630 V","C10, C11, C12",,,3
+,100nF,"Capacitor, Ceramic, 0.1UF, 50V, X7R, 0603","C13, C14, C15",,,3
+,100n,"Non Polarized Capacitor, SMD, 1206","Cadc1_Designator1, Cadc1_Designator2, Cadc3_Designator1, Cadc3_Designator2, Creg2, Creg4, Creg6_Designator1, Creg6_Designator2, Creg8_Designator1, Creg8_Designator2",,,10
+,10u,"Non Polarized Capacitor, SMD, 1206","Cadc2_Designator1, Cadc2_Designator2, Cadc4_Designator1, Cadc4_Designator2, Creg1, Creg3, Creg5_Designator1, Creg5_Designator2, Creg7_Designator1, Creg7_Designator2",,,10
+,680n,"Non Polarized Capacitor, SMD, 1206","Cadc5_Designator1, Cadc5_Designator2",,,2
+,100nF,"Non Polarized Capacitor, SMD, 1210",Cg2,,,1
+,INA241A3IDR,Current Sense Amp,"currentcensor1, currentcensor2, currentcensor3",,,3
+,1uF,"Film Capacitor, B32652 Series, 0.1 µF, ± 5%, PP (Polypropylene), 630 V","CVS1, CVS2",,,2
+,1N4007,"Diode, Standard, 1A, 1000v",D1,,,1
+,IR2101,"Half - Bridge Driver, MOSFET/IGBT, DIP8",G-driver1,,,1
+,470u,"Power Inductor 
+Through hole",L1,,,1
+,Vin,Horizontal PCB Mounted Banana Socket 24.243.2,P1,,,1
+,GND,Horizontal PCB Mounted Banana Socket 24.243.2,"P2, P4",,,2
+,Vout,Horizontal PCB Mounted Banana Socket 24.243.2,P3,,,1
+,MCTL80N20Y-TP,N-Channel 200 V 80A (Tc) 250W (Tj) Surface Mount TOLL-8L,"Q1, Q2",,,2
+,10,"Current Shunt 
+Kelvin 4W 0.002- 0.01","R1, R2, R3",,,3
+,1.55k,"Resistor, SMD, 1206","R5, Rv3",,,2
+,100,"Resistor, SMD, 1206","R6, R8, Rv2, Rv4",,,4
+,8.45k,"Resistor, SMD, 1206","R7, Rv11",,,2
+,1K,"Resistor, SMD, 1206","Radc1_Designator1, Radc1_Designator2, Radc2_Designator1, Radc2_Designator2, Radc3_Designator1, Radc3_Designator2, Radc4_Designator1, Radc4_Designator2, Radc5_Designator1, Radc5_Designator2, Radc6_Designator1, Radc6_Designator2, Radc7_Designator1, Radc7_Designator2, Radc8_Designator1, Radc8_Designator2, Radc9_Designator1, Radc9_Designator2",,,18
+,12K,"Resistor, SMD, 1206","Radc10_Designator1, Radc10_Designator2",,,2
+,18K2,"Resistor, SMD, 1206","Rreg1, Rreg4_Designator1, Rreg4_Designator2",,,3
+,1K8,"Resistor, SMD, 1206",Rreg2,,,1
+,500R,"3296W Series, 3/8 ” Square Potentiometer, 100k, 10%,  0.5 Watts, Multi Turn
+
+Part #: PV36W501C01B00","Rreg3, Rreg6_Designator1, Rreg6_Designator2",,,3
+,2K2,"Resistor, SMD, 1206","Rreg5_Designator1, Rreg5_Designator2",,,2
+,2mm Test Socket/PCB,"Banana Socket, 2mm, PCB, RED","TP1, TP2_Designator1, TP2_Designator2",,,3
+,B72500D160H60,TVS Diodes - Transient Voltage Suppressors,"TVS1, TVS2",,,2
+,HDR2X6V,"Header, 12-Pin, Dual row, 2.54mm Pitch, Straight","U6_Designator1, U6_Designator2",,,2
+,AD7328BRUZ,"ADC 12 Bit
+Package TSSOP20","Uadc_Designator1, Uadc_Designator2",,,2
+,LR12K4-G,"Adj Positive Regulator 
+Linear. 12V dropout V. 
+2W","Ureg2_Designator1, Ureg2_Designator2, Uregulator1",,,3
