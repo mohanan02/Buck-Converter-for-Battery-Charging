@@ -46,9 +46,10 @@ Because both switches are active MOSFETs rather than a diode, the same hardware 
 Charging a lithium pack needs two phases, and a single loop can't deliver both. The firmware uses a cascaded pair:
 
 ```
-Vbat ──▶[ outer PI ]──▶ Ibat_ref ──▶[ inner PI ]──▶ duty ──▶ PWM ──▶ half-bridge
-  ▲                                      ▲                               │
-  └──────────────── voltage feedback ────┴──── current feedback ─────────┘
+Vbat ─▶[ outer PI ]─▶ Iref ─▶[ inner PI ]─▶ duty ─▶ PWM
+  ▲                            ▲                     │
+  │                            └─ current feedback ──┤
+  └─────────── voltage feedback ─────────────────────┘
 ```
 
 While the pack is depleted, the outer loop saturates its current reference at the limit, so the inner loop holds a steady charge current — **constant current**. As the terminal voltage approaches the 24 V setpoint, the outer loop walks the current reference down and the system slides into **constant voltage**, with current tapering to the cutoff. The handover needs no mode-switching logic; it falls out of the loop structure.
