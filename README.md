@@ -1,5 +1,16 @@
 # Bidirectional DC-DC Buck-Boost Converter for Battery Connection
 
+![MCU](https://img.shields.io/badge/MCU-STM32H755ZI--Q-03234B?logo=stmicroelectronics&logoColor=white)
+![Firmware](https://img.shields.io/badge/Firmware-C%20%C2%B7%20STM32%20HAL-00599C?logo=c&logoColor=white)
+![EDA](https://img.shields.io/badge/EDA-Altium%20Designer-A5915F?logo=altiumdesigner&logoColor=white)
+![Modelling](https://img.shields.io/badge/Modelling-MATLAB%20%2F%20Simulink-0076A8?logo=mathworks&logoColor=white)
+
+![Topology](https://img.shields.io/badge/Topology-Synchronous%20buck--boost-6C4FA1)
+![Power](https://img.shields.io/badge/Power-200%20W%20%C2%B7%2048%20V%20%E2%86%94%2024%20V-E07B00)
+![Switching](https://img.shields.io/badge/Switching-40%20kHz-2E7D32)
+![Control](https://img.shields.io/badge/Control-Cascaded%20PI%20%C2%B7%20CC--CV-00897B)
+![Status](https://img.shields.io/badge/Status-bench--validated%20prototype-1F6FEB)
+
 A 200 W, microcontroller-controlled synchronous half-bridge converter that moves energy **both ways** between a 48 V DC bus and a 24 V battery bank — stepping down to charge the battery, stepping up to discharge it back onto the bus.
 
 The converter decides its own direction. An STM32H755 reads bus voltage, battery voltage and three current channels through an external 12-bit ADC, runs a cascaded CC–CV PI loop, and sets the duty cycle of a complementary PWM pair driving the half-bridge. Live telemetry streams to a host PC over UART.
