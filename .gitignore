@@ -1,0 +1,38 @@
+# STM32CubeIDE / build output
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+.settings/
+.metadata/
+
+# Altium
+History/
+Project Logs*/
+__Previews/
+*.SchDocPreview
+*.PcbDocPreview
+*.~(*)
+*.Zip
+
+# MATLAB / Simulink
+slprj/
+*.slxc
+*.autosave
+*.asv
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
