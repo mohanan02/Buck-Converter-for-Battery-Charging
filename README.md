@@ -2,8 +2,8 @@
 
 ![MCU](https://img.shields.io/badge/MCU-STM32H755ZI--Q-03234B?logo=stmicroelectronics&logoColor=white)
 ![Firmware](https://img.shields.io/badge/Firmware-C%20%C2%B7%20STM32%20HAL-00599C?logo=c&logoColor=white)
-![EDA](https://img.shields.io/badge/EDA-Altium%20Designer-A5915F?logo=altiumdesigner&logoColor=white)
-![Modelling](https://img.shields.io/badge/Modelling-MATLAB%20%2F%20Simulink-0076A8?logo=mathworks&logoColor=white)
+![EDA](https://img.shields.io/badge/EDA-Altium%20Designer-A5915F)
+![Modelling](https://img.shields.io/badge/Modelling-MATLAB%20%2F%20Simulink-0076A8)
 
 ![Topology](https://img.shields.io/badge/Topology-Synchronous%20buck--boost-6C4FA1)
 ![Power](https://img.shields.io/badge/Power-200%20W%20%C2%B7%2048%20V%20%E2%86%94%2024%20V-E07B00)
